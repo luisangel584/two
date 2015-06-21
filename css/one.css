@@ -1,0 +1,391 @@
+body{
+    width: 100%;
+    height: 100%;
+    
+    
+    background-color: azure;
+    background: url("../img/hirundo-banner5.jpg") center fixed;
+    background-size: cover;
+    
+    -webkit-transition: 1s ease;
+    -o-transition: 1s ease;
+    transition: 1s ease;
+    
+    overflow-x: hidden;
+}
+
+.hirundo-menu{
+    position: fixed;
+    z-index: 99;
+    opacity: 0.98;
+}
+
+.menu-shadow{
+    box-shadow: #34495e 1px 1px 10px 1px;
+}
+
+.navbar .text-menu{
+    margin-top: 30px;
+    font-size: 16px
+}
+
+
+.nav-logo{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+.nav-logo img{
+    margin-top: -20px;
+}
+
+
+/*
+** Full-width
+*/
+
+.full-width{
+    width: 100%;
+    padding: 0px;
+}
+
+/*
+** Banner
+*/
+
+.first-banner{
+    -webkit-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+.first-banner .image{
+    height: 700px;
+    width: 100%;
+    
+    margin-top: 100px;
+}
+
+.first-banner h1{
+    position: relative;
+    
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: aliceblue;
+    top: 35%;
+    
+    padding: 5%;
+}
+
+.btns{
+    position: relative;
+    top: 35%;
+}
+
+.btns a{
+    text-decoration: none;
+}
+
+.btns .col-md-2{
+    margin-bottom: 20px;
+}
+
+.btn-know p{
+    width: 10em;
+    height: 3.5em;
+    margin: 0 auto;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    position: relative;
+    
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    color: aliceblue;
+    
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.btn-know p:hover{
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    
+    background: #DCC6E0;
+    color: #210116;
+    
+    font-weight: bold;
+    
+    box-shadow: #210116 1px 1px 10px 1px;
+}
+
+.btn-service p{
+    width: 10em;
+    height: 3.5em;
+    margin: 0 auto;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    position: relative;
+    
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    color: aliceblue;
+    
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.btn-service p:hover{
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    
+    background: #DCC6E0;
+    color: #210116;
+    
+    font-weight: bold;
+    
+    box-shadow: #210116 1px 1px 10px 1px;
+}
+
+/*
+** Sections
+*/
+
+.section{
+    margin-top: 30px;
+    background-color: azure;
+}
+
+.section h1{
+    text-align: center;
+    text-transform: uppercase;
+    
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.section p{
+    text-align: center;
+    font-size: 16px;
+}
+
+
+/*
+** Services
+*/
+.hirundo-services{
+    margin-top: 30px;
+}
+
+.hirundo-services h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.border-shadow{
+    border-bottom: 2px solid #2e8ece;
+    width: 55%;
+    margin: 0 auto;
+    
+    margin-bottom: 15px;
+}
+
+.hirundo-services p{
+    text-align: justify;
+    font-size: 15px;
+    
+    margin: 0 auto;
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+}
+
+.btn-services .btn{
+    -webkit-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+    
+    width: 100%;
+    background-color: #27ae60;
+    border: #2ecc71;
+    
+    margin: 20px 0px 30px 0px;
+}
+
+.btn-services .btn:hover{
+    -webkit-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+    
+    background-color: #2ecc71;
+    
+    
+}
+
+
+/*
+** Thumb
+*/
+
+.thumb{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    
+    margin: 0 auto;
+    
+    border-radius: 100%;
+    border: 10px solid #eee;
+    
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.thumb1{
+    background: url("../img/dise%C3%B1o-web-cozumel.jpg") no-repeat center;
+    background-size: 200%;
+    
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.thumb1:hover{
+    border: 10px solid #e74c3c;
+    
+    background: url("../img/dise%C3%B1o-web-cozumel.jpg") no-repeat center;
+    background-size: 250%;
+    
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.thumb2{
+    background: url("../img/desarrollo-web-cozumel.jpg") no-repeat center;
+    background-size: 200%;
+    
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.thumb2:hover{
+    border: 10px solid #16a085;
+    
+    background: url("../img/desarrollo-web-cozumel.jpg") no-repeat center;
+    background-size: 250%;
+    
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.thumb3{
+    background: url("../img/seo-cozumel.jpg") no-repeat center;
+    background-size: 200%;
+    
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.thumb3:hover{
+    border: 10px solid #2980b9;
+    
+    background: url("../img/seo-cozumel.jpg") no-repeat center;
+    background-size: 230%;
+    
+    -webkit-transition: 0.2s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+
+/*
+** Section 2
+*/
+
+.section2{
+    position: relative;
+    height: 250px;
+    width: auto;
+    
+    background: url('../img/hirundo-banner3.jpg') no-repeat fixed;
+    background-color: rgba(46, 204, 113,0.8);
+}
+
+.section2 h2{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 25px;
+    
+    padding: 4em 0em 4em 0em;
+}
+
+
+/*
+** Section 3
+*/
+
+.section3{
+    height: auto;
+    width: 100%;
+    padding-top: 30px;
+    
+    background-color: rgba(34, 49, 63, 0.98);//#22313F;
+}
+
+.section3 h1{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section3 p{
+    text-align: center;
+    color: aliceblue;
+    font-size: 16px;
+    
+    margin-top: 20px;
+}
+
+.our{
+    margin-top: 30px;
+}
+
+.our-first p{
+    font-size: 50px;
+}
+
+.our-second p{
+    text-align: justify;
+}
+
+.our-third h3{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.our-third p{
+    text-align: left;
+}
+
+
+
+
