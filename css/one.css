@@ -254,7 +254,7 @@ body{
 }
 
 .thumb1{
-    background: url("../img/dise%C3%B1o-web-cozumel.jpg") no-repeat center;
+    background: url("../img/diseno-web-cozumel.jpg") no-repeat center;
     background-size: 200%;
     
     -webkit-transition: 0.5s;
@@ -265,7 +265,7 @@ body{
 .thumb1:hover{
     border: 10px solid #e74c3c;
     
-    background: url("../img/dise%C3%B1o-web-cozumel.jpg") no-repeat center;
+    background: url("../img/diseno-web-cozumel.jpg") no-repeat center;
     background-size: 250%;
     
     -webkit-transition: 0.5s;
